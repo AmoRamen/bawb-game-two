@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bawb's Boba Shop</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #3a2a3a; }
+    #game { width: 100%; height: 100%; }
+  </style>
+</head>
+<body>
+  <div id="game"></div>
+
+  <!-- Phaser 3.80.1 is the game engine. A copy lives in lib/ so nothing needs installing. -->
+  <script src="lib/phaser.min.js"></script>
+
+  <!-- Our game code. Files load in this order. -->
+  <script src="src/assets.js"></script>
+  <script src="src/scenes/BootScene.js"></script>
+  <script src="src/scenes/ShopScene.js"></script>
+  <script src="src/main.js"></script>
+</body>
+</html>
